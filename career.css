@@ -50,7 +50,7 @@ li{
     padding: 50px;
     text-align:center;
 }
-@media screen and (max-width: 590px) {
+@media only screen and (max-width: 590px) {
 	html{
 		height:100%;
 	}
