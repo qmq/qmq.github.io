@@ -55,25 +55,25 @@ li{
 		height:100%;
 	}
 	footer{
-		color:white;
+		color:black;
 	}
 	body{
-		background-image: url("http://s18.postimg.org/6wdmbc1x5/how_i_met_your_mother.jpg");
+		background-color:#E0E0E0;
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
-		color:white;
+		color:black;
 	}
 
 	.container {
     width: 100%;
     float:left;
-    color:white;
+    color:black;
     margin:auto;
 
 	}
 	.content{
 		width:50%;
-		color:white;
+		color:black;
 		float: inherit;
 		margin-right:100%;
 	}
@@ -97,7 +97,7 @@ li{
 	
 	}
 	a{
-		color:white;
+		color:black;
 		max-width:500px;
 		font-size: 2rem;
    	}
