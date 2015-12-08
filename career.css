@@ -53,6 +53,7 @@ li{
 @media only screen and (max-width: 590px) {
 	html{
 		height:100%;
+		width:100%;
 	}
 	footer{
 		color:black;
@@ -61,17 +62,16 @@ li{
 		background-color:#E0E0E0;
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
-		color:black;
+		background-attachment: fixed;
 	}
 
 	.container {
     width: 100%;
     float:left;
     color:black;
-    margin:auto;
-
 	}
-	.characters{
+	
+	.content{
 		width:50%;
 		color:black;
 		float: inherit;
@@ -80,7 +80,7 @@ li{
 	
   	img{
   		height: 100%;
-  		width:80%;
+  		width:100%;
   		margin: auto;
     }
   
@@ -88,18 +88,17 @@ li{
   .nav{
   		display: inline;
   		vertical-align: center;
-		font-size:10px;
+		font-size:20px;
 	}
 	li{
 		float:center;
 		display:inline;
-
-	
 	}
 	a{
 		color:black;
-		max-width:500px;
-		font-size: 2rem;
+		max-width:590px;
+		font-family:Arial;
+		font-size: 10px;
    	}
 
 }
