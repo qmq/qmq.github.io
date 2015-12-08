@@ -72,10 +72,9 @@ li{
 	}
 	
 	.content{
-		width:50%;
+		width:100%;
 		color:black;
-		float: inherit;
-		margin-right:100%;
+		float:auto;
 	}
 	
   	img{
