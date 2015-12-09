@@ -1,8 +1,11 @@
+
 body{
 	background-color:#E0E0E0;
 	background-size: 100% 100%;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	}
+
 .nav{
 	display: inline;
 	padding-top: 0.5%;
@@ -11,8 +14,7 @@ body{
 	padding-bottom: 0.5%;
 	}
 ul{
-	text-align:center;
-	font-family:Arial;
+	text-align: center;
 	}
 a:link{
 	text-decoration:none;
@@ -43,7 +45,7 @@ img{
 	margin-right:auto;
 }
 @media screen and (max-width: 590px) {
-html{
+	html{
 		height:100%;
 	}
 	.container {
@@ -52,7 +54,6 @@ html{
     color:black;
 	}
 	body{
-	background-image:none;
 	background-color: #E0E0E0;
 	background-size: 100% 100%;
 	color:black;
@@ -81,3 +82,4 @@ html{
    	}
 
 }
+	
